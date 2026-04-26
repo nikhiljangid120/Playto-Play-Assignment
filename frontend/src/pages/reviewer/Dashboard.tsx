@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import client from '../../api/client';
-import { QueueItem, DashboardMetrics } from '../../types';
+import type { QueueItem, DashboardMetrics } from '../../types';
 import { useAuth } from '../../context/AuthContext';
 
 export default function Dashboard() {

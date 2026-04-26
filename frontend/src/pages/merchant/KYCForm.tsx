@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import client from '../../api/client';
-import { KYCSubmission } from '../../types';
+import type { KYCSubmission } from '../../types';
 import { useAuth } from '../../context/AuthContext';
 
 export default function KYCForm() {

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation } from '@tanstack/react-query';
 import client from '../../api/client';
-import { KYCSubmission } from '../../types';
+import type { KYCSubmission } from '../../types';
 
 export default function SubmissionDetail() {
   const { id } = useParams();
