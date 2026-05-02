@@ -7,7 +7,6 @@ It handles merchant onboarding, document uploads, state transitions, SLA trackin
 - Frontend: React + Vite + Tailwind CSS + React Query
 
 ## Setup Instructions
-
 ### 1. Backend
 
 Navigate to the backend directory and set up the virtual environment:
