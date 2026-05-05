@@ -1,5 +1,4 @@
 # Playto KYC Pipeline
-
 This is a full-stack solution for the Playto Founding Engineering Intern Challenge.
 It handles merchant onboarding, document uploads, state transitions, SLA tracking, and reviewer dashboards.
 ## Stack
